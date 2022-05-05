@@ -1,0 +1,113 @@
+  @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+  body{ overflow: hidden; } .col-md-12{ align-items: center; }
+  .card{ width: 25rem; height: 90%; border-top-left-radius: 6px; border-top-right-radius: 6px;}
+  .card img{  border-top-left-radius: 6px; border-top-right-radius: 6px; height: 70%;}
+  .card .card-head { font-size: 20px; text-transform: none; }
+  #card-price{ font-weight: bold; font-size: 18px;}
+  .c-div{ margin-left: 20px; width: auto; height: 500px; border-radius: 8px; background-color: #fff;}
+  .fd-box { width: 100%; height: 226px; font-family: 'Nunito', sans-serif; }
+  .fd-box .col-md-12 .row{ margin-top: 20px; }
+  .fd-box .col-md-12 .btn { margin-left: 500px; }
+  .coment-box{ height: 50%; overflow: auto; }
+  .c-div .text{ font-family: 'Nunito', sans-serif; color: #f70; }
+  .coment-box .row { width: 100%; }
+
+  .coment-box::-webkit-scrollbar {
+  width: 5px;
+  }
+  .coment-box::-webkit-scrollbar-track {
+  background-color: #FFFFFF;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);
+  border-radius: 100rem;
+  }
+  .coment-box::-webkit-scrollbar-thumb {
+  background-color: #FB7235;
+  border-radius: 50px;
+  }
+
+  .rtn { display: flex; align-items: center; }
+
+  .rating {
+    font-weight: bolder;
+  }
+
+.rating:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+    clip:rect(0,0,0,0);
+}
+
+.rating:not(:checked) > label {
+    float:right;
+    width: 1.15em;
+    padding: 0.1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:200%;
+    line-height:1.2;
+    color:#FBCFCF;
+}
+
+.rating:not(:checked) > label:before {
+    content: '★ ';
+}
+.rating > input:checked ~ label {
+    color: #f70;
+}
+.rtn{
+  float: left;
+  width: 100%;
+  border: 1px solid#FF6D51;
+  border-radius: 5px;
+}
+
+.rtn p{
+ color: #FE5F3A;
+ opacity: 0.8;
+ padding: 10px 10px;
+ font-size: 16px;
+}
+
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+    color: #FB6643;
+}
+
+.rating > input:checked + label:hover,
+.rating > input:checked + label:hover ~ label,
+.rating > input:checked ~ label:hover,
+.rating > input:checked ~ label:hover ~ label,
+.rating > label:hover ~ input:checked ~ label {
+    color: #ea0;
+}
+
+.rating > label:active {
+    position:relative;
+    top:2px;
+    left:2px;
+}
+
+.fa-star{ border-radius: 0px; color: #E6C098;}
+.checked{
+  color: orange;
+}
+
+
+.fd-box #text{
+  border: 1px solid#FF6D51;
+}
+
+.fd-box input::placeholder {
+  color: #FF6D51;
+  opacity: 0.8;
+  font-size: 15px;
+}
+
+.fd-box textarea::placeholder {
+  color: #FF6D51;
+  opacity: 0.8;
+  font-size: 15px;
+}
+
+

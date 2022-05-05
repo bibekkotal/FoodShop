@@ -1,0 +1,37 @@
+
+/*/////////////////////  Cart Card Style ///////////////////////////*/
+ 
+
+  #v-card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #v-card .image-fluid{
+  	border-top-left-radius: 5px;
+  	border-bottom-left-radius: 5px;
+  }
+  #v-card .order-btn{
+  	text-align: center;
+  	margin: 2px 0px 0px 0px;
+  }
+  #v-card .head,h6,.s-t{
+  	font-family: 'Nunito', sans-serif;
+  	color: #FF643A;
+  	font-size: 20px;
+  }
+  #v-card p{
+  font-family: 'Nunito', sans-serif;
+  color: #FF7B3A;
+  margin-top: 14px;
+  }
+  #v-card .far{
+  	font-size: 25px;
+  	color:  #FF7B3A;
+  	margin: 0px; padding-right: 30px;
+  }
+
+  
+
+/*/////////////////// cart page /////////////////////////////////*/
